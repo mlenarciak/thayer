@@ -1,0 +1,37 @@
+__pycache__/
+*.pyc
+thayerenv/
+
+# Ignore virtual environment directories
+myenv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore environment configuration files
+*.env
+*.env.*
+
+# Ignore other system and IDE-specific files
+.DS_Store
+.idea/
+.vscode/
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore logs and databases
+*.log
+*.sqlite3
+
+# Ignore pyenv files
+.python-version
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
